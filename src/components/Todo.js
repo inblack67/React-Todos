@@ -14,7 +14,7 @@ const Todo = ({todo, index, completeTodo, incompleteTodo, deleteTodo}) => {
         Incomplete
       </button>
 
-      <button className="btn red right" onClick={() => deleteTodo(index)}>
+      <button className="btn red right hide-on-small-only" onClick={() => deleteTodo(index)}>
         Delete
       </button>
 
